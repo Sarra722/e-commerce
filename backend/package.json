@@ -1,0 +1,37 @@
+{
+  "name": "hi-mart-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": {
+    "name": "Shawkath Hossain Maruf",
+    "email": "shawkath646@gmail.com",
+    "url": "https://shawkath646.pro"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawkath646/hi-mart-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shawkath646/hi-mart-backend/issues",
+    "email": "shawkath646@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "googleapis": "^149.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
